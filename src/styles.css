@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  max-width: 100vw;
+  overflow-x: hidden;
+}
+
+/* above days */
+.days-container {
+  overflow-x: scroll;
+}
+
+.days {
+  display: flex;
+}
+
+.day {
+  border: 1px solid black;
+  min-width: 50px;
+}
