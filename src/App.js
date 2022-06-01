@@ -41,6 +41,7 @@ function getDaylist() {
 export default function App() {
   const [daylist, setDaylist] = useState(getDaylist());
   const [users, setUsers] = useState(["person1", "person2", "person3"]);
+  const [currentUser, setCurrentUser] = useState("");
 
   function toggleAvailability(user, dayId) {
     let newDaylist = daylist.slice();
