@@ -3,6 +3,10 @@
   user-select: none;
 }
 
+button {
+  cursor: pointer;
+}
+
 .App {
   font-family: sans-serif;
   text-align: center;
@@ -13,6 +17,7 @@
 /* above days */
 .days-container {
   overflow-x: scroll;
+  margin: 30px 10px 10px 10px;
 }
 
 .days {
@@ -22,4 +27,10 @@
 .day {
   border: 1px solid black;
   min-width: 50px;
+  cursor: pointer;
+}
+
+.user {
+  min-width: 70px;
+  overflow-x: hidden;
 }
